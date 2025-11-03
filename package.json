@@ -1,0 +1,19 @@
+{
+  "name": "video-abstrak",
+  "version": "1.0.0",
+  "description": "Aplikasi pembuat video 10 detik dengan animasi gambar abstrak",
+  "main": "js/app.js",
+  "scripts": {
+    "start": "http-server . -p 8080",
+    "dev": "http-server . -p 8080 -o"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "keywords": ["video", "animation", "canvas", "abstract", "mp4"],
+  "author": "",
+  "license": "MIT"
+}
